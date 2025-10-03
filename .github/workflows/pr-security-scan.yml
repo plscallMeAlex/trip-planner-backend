@@ -1,0 +1,12 @@
+# .github/workflows/pr-security-scan.yml
+
+name: PR Security Scan
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-security-scan:
+    name: Trivy Vulnerability Scan
+    uses: LSEG-Immersion-Day-DevOps-workshop-2025/actions/.github/workflows/security-scan-ci.yml@main
