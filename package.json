@@ -15,7 +15,8 @@
 		"express": "^4.18.2"
 	},
 	"overrides": {
-		"cross-spawn": "^7.0.5"
+		"cross-spawn": "^7.0.5",
+		"execa>cross-spawn": "7.0.5"
 	},
 	"devDependencies": {
 		"vercel": "^48.0.0"
